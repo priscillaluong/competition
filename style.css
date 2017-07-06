@@ -1,5 +1,5 @@
 .header-wrapper {
-	height: 100px;
+	height: 150px;
 }
 
 h1 {
@@ -7,18 +7,27 @@ h1 {
 	text-align: center;
 }
 
-ul{
-	list-style-type: none;
-	margin-left:200px;
-	margin-right:200px;
-	text-align:center;
+.navbar {
+	background-color:white;
 }
 
-li {
-	float: left;
-	width:20%
+.navbar.navbar-default {
+	border-top: none;
+	border-bottom: 1px dashed;
 }
 
-li a{
-	
+.navbar .navbar-nav {
+    float:left;
+		margin-left:35%;
+		background-color: white;
+}
+
+ul.nav a:hover {
+	color: #82CECC !important;
+}
+
+.navbar-default .navbar-nav>.active a,
+.navbar-default .navbar-nav>.active> a:focus,
+.navbar-default .navbar-nav>.active> a:hover{
+  background: none;
 }

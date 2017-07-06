@@ -7,6 +7,18 @@ h1 {
 	text-align: center;
 }
 
+ul{
+	list-style-type: none;
+	margin-left:200px;
+	margin-right:200px;
+	text-align:center;
+}
+
 li {
-	display:inline;
+	float: left;
+	width:20%
+}
+
+li a{
+	
 }

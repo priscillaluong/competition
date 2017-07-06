@@ -2,9 +2,11 @@
 	height: 100px;
 }
 
-
 h1 {
 	color: grey;
 	text-align: center;
-	
+}
+
+li {
+	display:inline;
 }

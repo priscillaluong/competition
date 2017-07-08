@@ -14,13 +14,20 @@
 
   </head>
   <body>
-    <h1>Contact</h1>
+    
+   <div class="section-container">
     <div class="container">
-  <div class="row">
-    <div class="col">
-      Contact details goes here
-    </div>
-    <div class="col">
+    Contact
+  		<div class="row">
+    		<div class="col contact">
+    			<div class="inner">
+    			<h1>Baxton</h1>
+      			<p>4-5 Bonhill Street, Shoreditch,</p>
+      			<p2>London, EC2A 4BX. UK</p2>
+      			</div>
+    		</div>
+
+   			 <div class="col">
 
 		     <div id="map" style="width:100%;height:400px"></div>
 
@@ -47,7 +54,7 @@
 			  	marker.setMap(map);
 			  	google.maps.event.addListener(marker,'click',function() {
 		    var infowindow = new google.maps.InfoWindow({
-		      content:"Florela. Make someone happy."
+		      content:"Baxton. Make someone happy."
 		    });
 		  infowindow.open(map,marker);
 		  });
@@ -55,9 +62,10 @@
 			</script>
 			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFqJv_saeJNZw1ns3wH8zbyhAEWN25uU8&callback=myMap"></script>
    
+    		</div>
+    	</div>
     </div>
-    </div>
-    </div>
+ </div>
 	
  
  <!-- Javascript plugins, jQuery and Tether -->

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="jquery-3.2.1.slim.js"></script>
+	<script type="text/javascript" src="script.js"></script>
   </head>
   <body>
     <h1>Contact</h1>
@@ -12,6 +15,7 @@ function myMap() {
 	var myCenter = new google.maps.LatLng(51.522670,-0.085638); 
 	var mapOptions = {center: myCenter, zoom: 16};
 	var map = new google.maps.Map(mapCanvas,mapOptions);
+	var infowindow = new google.maps.InfoWindow({});
 	var icon = {
 		url: "images/cosmea-Flower.png",
 		scaledSize: new google.maps.Size(50, 50),
@@ -23,9 +27,15 @@ function myMap() {
 	    position: new google.maps.LatLng(51.522670,-0.085638),
 	    icon: icon,
 	    optimized: false,
-	    animation:google.maps.Animation.BOUNCE
+	    animation:google.maps.Animation.BOUNCE,
 	  });
 	  	marker.setMap(map);
+	  	google.maps.event.addListener(marker,'click',function() {
+    var infowindow = new google.maps.InfoWindow({
+      content:"Florela. Make someone happy."
+    });
+  infowindow.open(map,marker);
+  });
 }
 	</script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFqJv_saeJNZw1ns3wH8zbyhAEWN25uU8&callback=myMap"></script>

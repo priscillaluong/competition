@@ -1,6 +1,5 @@
-
   $( document ).ready(function() {
-  	$("#button1").on("click", function() {
+  $("#button1").on("click", function() {
   alert("clicked!")
   });
 

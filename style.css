@@ -1,3 +1,12 @@
 h1 {
-	color: grey;
+	color: white;
+}
+
+.inner {
+	padding: 55px;
+	text-align: center;
+}
+.contact {
+	padding:0px;
+	background-color: #f0e0e0;
 }

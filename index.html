@@ -7,18 +7,18 @@
 	<div id="map" style="width:40%;height:400px"></div>
 
 	<script>
-	function myMap() {
+function myMap() {
   	var mapCanvas = document.getElementById("map");
 	var myCenter = new google.maps.LatLng(51.522670,-0.085638); 
 	var mapOptions = {center: myCenter, zoom: 16};
 	var map = new google.maps.Map(mapCanvas,mapOptions);
 	var marker = new google.maps.Marker({
 	    position: myCenter,
-	    icon: "/images/cosmea-flower.png"
+	    icon: "images/Cosmea-flower.png"
 	  });
 	  	marker.setMap(map);
 }
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFqJv_saeJNZw1ns3wH8zbyhAEWN25uU8&callback=myMap"></script>
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFqJv_saeJNZw1ns3wH8zbyhAEWN25uU8&callback=myMap"></script>
   </body>
 </html>

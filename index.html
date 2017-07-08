@@ -4,13 +4,13 @@
   </head>
   <body>
     <h1>Contact</h1>
-	<div id="map" style="width:80%;height:500px"></div>
+	<div id="map" style="width:40%;height:400px"></div>
 
 	<script>
 	function myMap() {
   	var mapCanvas = document.getElementById("map");
 	var myCenter = new google.maps.LatLng(51.522670,-0.085638); 
-	var mapOptions = {center: myCenter, zoom: 15};
+	var mapOptions = {center: myCenter, zoom: 16};
 	var map = new google.maps.Map(mapCanvas,mapOptions);
 	var marker = new google.maps.Marker({
 	    position: myCenter,

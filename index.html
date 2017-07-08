@@ -4,6 +4,21 @@
   </head>
   <body>
     <h1>Contact</h1>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2482.496292943526!2d-0.0871544!3d51.5224565!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4c78fcec59b81a35!2sCampus+London!5e0!3m2!1sen!2suk!4v1499512489901" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	<div id="map" style="width:80%;height:500px"></div>
+
+	<script>
+	function myMap() {
+  	var mapCanvas = document.getElementById("map");
+	var myCenter = new google.maps.LatLng(51.522670,-0.085638); 
+	var mapOptions = {center: myCenter, zoom: 15};
+	var map = new google.maps.Map(mapCanvas,mapOptions);
+	var marker = new google.maps.Marker({
+	    position: myCenter,
+	    icon: "/images/cosmea-flower.png"
+	  });
+	  	marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFqJv_saeJNZw1ns3wH8zbyhAEWN25uU8&callback=myMap"></script>
   </body>
 </html>

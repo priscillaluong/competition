@@ -1,5 +1,57 @@
+
+.content {
+	padding-top: 40px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+ h1 {
+	color: grey;
+	text-align: center;
+	height: 70px;
+}
+
+.menu {
+    color:#FFF;
+    height:2em;
+    padding:0;
+    position:absolute;
+    top:80px;
+    width:100%;
+}
+
+.fixed {
+    position:fixed;
+    top:0;
+}
+
+.navbar {
+	background-color:white;
+}
+
+.navbar.navbar-default {
+	border-top: none;
+	border-bottom: 1px dashed;
+}
+
+.navbar .navbar-nav {
+    float:left;
+		margin-left:35%;
+		background-color: white;
+}
+
+ul.nav a:hover {
+	color: #82CECC !important;
+}
+
+.navbar-default .navbar-nav>.active a,
+.navbar-default .navbar-nav>.active> a:focus,
+.navbar-default .navbar-nav>.active> a:hover{
+  background: none;
+}
+
 h1 {
-	color: white;
+	color: grey;
 }
 
 .inner {
@@ -36,4 +88,3 @@ h1 {
 .fa-instagram {
   background: #1d6087;
   color: white;
-}

@@ -1,3 +1,4 @@
+
 $( document ).ready(function() {
   $("#button1").on("click", function() {
     alert("clicked!")
@@ -20,8 +21,7 @@ $(document).ready(function() {
     if ($(window).scrollTop() < 101) {
       $('.navbar').removeClass('navbar-fixed-top');
     }
-  });
-});
+=======
 */
 
 var num = 70; //number of pixels before modifying styles

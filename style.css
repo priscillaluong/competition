@@ -1,10 +1,28 @@
-.header-wrapper {
-	height: 150px;
+
+.content {
+	padding-top: 40px;
+	padding-left: 60px;
+	padding-right: 60px;
 }
 
 h1 {
 	color: grey;
 	text-align: center;
+	height: 70px;
+}
+
+.menu {
+    color:#FFF;
+    height:2em;
+    padding:0;
+    position:absolute;
+    top:80px;
+    width:100%;
+}
+
+.fixed {
+    position:fixed;
+    top:0;
 }
 
 .navbar {

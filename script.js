@@ -4,6 +4,7 @@ $( document ).ready(function() {
     });
 });
 
+/*
 //Sticky navbar
 $(document).ready(function() {
   //change the integers below to match the height of your upper dive, which I called
@@ -20,4 +21,15 @@ $(document).ready(function() {
       $('.navbar').removeClass('navbar-fixed-top');
     }
   });
+});
+*/
+
+var num = 70; //number of pixels before modifying styles
+
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > num) {
+        $('.menu').addClass('fixed');
+    } else {
+        $('.menu').removeClass('fixed');
+    }
 });

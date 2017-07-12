@@ -7,12 +7,13 @@
 	<script type="text/javascript" src="jquery-3.2.1.slim.js"></script>
 	<script type ="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 	<script type="text/javascript" src="script.js"></script>
-  <!-- Meta tag to ensure proper rendering and touch zooming for all devices 
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+  <!-- Meta tag to ensure proper rendering and touch zooming for all devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 <!-- Social media icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <!-- Bootstrap CSS 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
+	  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> 
 </head>
 <body>
 	<h1>Baxters flowers.</h1>
@@ -65,6 +66,37 @@
 <p>Duis gravida mi turpis, vitae ultrices arcu euismod volutpat. Sed ullamcorper venenatis augue, in varius odio vestibulum vitae. Vestibulum venenatis et nisi non bibendum. Nullam arcu dui, rutrum eget convallis vel, gravida vitae nulla. Nunc vel faucibus arcu. Proin molestie, purus id semper iaculis, eros enim facilisis tortor, nec cursus augue augue accumsan sapien. Vivamus quis viverra neque. Fusce sed tellus id dolor faucibus mattis nec nec sem.
 </p>
 </div>
+
+<!-- scrolling image gallery -->
+
+<div class="scroller"
+	<div class="scroller-wrap">
+
+		<button class="left-arrow">next</button>
+		<button class="right-arrow">prev</button>
+
+		<div class="scroller-container">
+			<div class="slide"><img data-ind="2" src"1.jpg" alt=" ">
+				<div class="cover"></div>
+			</div>
+
+			<div class="slide"><img data-ind="2" src"2.jpg" alt=" ">
+				<div class="cover"></div>
+			</div>
+
+			<div class="slide"><img data-ind="2" src"3.jpg" alt=" ">
+				<div class="cover"></div>
+			</div>
+
+			<div class="slide"><img data-ind="2" src"4.jpg" alt=" ">
+				<div class="cover"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- scrolling image gallery ends -->
+
   
 <!-- CONTACT + MAPS API BEGIN -->
   
@@ -124,3 +156,27 @@
     	</div>
     </div>
  </div>
+	
+<form method='post' action="/signup">
+Email address<br>
+<input type='text' name='email' placeholder="Enter your email">
+<br><br>
+<input type='submit' value='Submit'>
+</form>
+ 
+ <!-- Javascript plugins, jQuery and Tether -->
+ 
+ <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<!-- CONTACT + MAPS API ENDS -->
+
+<!-- jQuery library and GSAP's TweenMax.min.js for scrolling image gallery -->
+
+<script src="//ajax.googleapis.com/ajax.libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+<!-- scrolling image gallery ends library src ends -->
+</body>
+</html>

@@ -1,14 +1,16 @@
 
 .content {
-	padding-top: 40px;
-	padding-left: 60px;
-	padding-right: 60px;
+	padding-top: 60px;
+	padding-left: 80px;
+	padding-right: 80px;
+	font-size: 13px;
 }
 
  h1 {
 	color: grey;
 	text-align: center;
 	height: 70px;
+	font-size: 60px;
 }
 
 .menu {
@@ -16,7 +18,7 @@
     height:2em;
     padding:0;
     position:absolute;
-    top:80px;
+    top:70px;
     width:100%;
 }
 
@@ -29,19 +31,17 @@
 	background-color:white;
 }
 
-.navbar.navbar-default {
-	border-top: none;
-	border-bottom: 1px dashed;
-}
-
 .navbar .navbar-nav {
-    float:left;
+		display: inline-block;
+    float:none;
+		vertical-align: top;
 		margin-left:35%;
 		background-color: white;
+		font-size: 20px;
 }
 
-ul.nav a:hover {
-	color: #82CECC !important;
+ul.navbar-nav a:hover {
+	color: #f0e0e0 !important;
 }
 
 .navbar-default .navbar-nav>.active a,
@@ -56,6 +56,7 @@ h1 {
 
 .inner {
 	padding: 55px;
+	height: 400px;
 }
 .contact {
 	padding:0px;

@@ -3,20 +3,52 @@
 <head>
 	<title>Baxters</title>
 	 <link   href = "bootstrap-3.3.7-dist/css/bootstrap.css"   rel = "stylesheet">
-	<link rel="stylesheet" href="style.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<script type="text/javascript" src="jquery-3.2.1.slim.js"></script>
 	<script type ="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 	<script type="text/javascript" src="script.js"></script>
-  <!-- Meta tag to ensure proper rendering and touch zooming for all devices 
+  <!-- Meta tag to ensure proper rendering and touch zooming for all devices
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
 <!-- Social media icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <!-- Bootstrap CSS
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 	<h1>Baxters flowers.</h1>
 	<div class="menu">
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home">home. <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">about.</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#gallery">gallery.</a>
+      </li>
+			<li class="nav-item">
+				<a class="nav-link" href="#shop">shop.</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#contact">contact.</a>
+			</li>
+    </ul>
+    <!-- search button
+		<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+	-->
+  </div>
+</nav>
+		<!-- old nav bar on Bootstraph 3
 		<nav class="navbar navbar-default">
 			<div class="container-fluid">
 				<ul class="nav navbar-nav" >
@@ -28,6 +60,7 @@
 				</ul>
 			</div>
 		</nav>
+		-->
 	</div>
 
 <div class = "content">
@@ -65,18 +98,16 @@
 <p>Duis gravida mi turpis, vitae ultrices arcu euismod volutpat. Sed ullamcorper venenatis augue, in varius odio vestibulum vitae. Vestibulum venenatis et nisi non bibendum. Nullam arcu dui, rutrum eget convallis vel, gravida vitae nulla. Nunc vel faucibus arcu. Proin molestie, purus id semper iaculis, eros enim facilisis tortor, nec cursus augue augue accumsan sapien. Vivamus quis viverra neque. Fusce sed tellus id dolor faucibus mattis nec nec sem.
 </p>
 </div>
-  
-<!-- CONTACT + MAPS API BEGIN -->
-  
+
 <div class="section-container">
   <div class="container">
   		<div class="row">
-    		<div class="col contact">
+    		<div class="col-md-6 contact">
     			<div class="inner">
     		  	<h1>Baxters</h1>
       			<p>4-5 Bonhill Street, Shoreditch,</p>
             <p>London, EC2A 4BX. UK</p>
-					  <p>Get in touch with us at hello@baxters.co.uk</p>
+					  <p>Get in touch with us at <a href="mailto:hello@baxters.co.uk">hello@baxters.co.uk </a> </p>
 				  	<br></br>
 					  Follow us
 					  <br></br>
@@ -85,14 +116,14 @@
 					  <a href="#" class="fa fa-instagram"></a>
 					</div>
       			</div>
-  			
 
-  <div class="col">
+
+  <div class="col-md-6">
 		<div id="map" style="width:100%;height:400px"></div>
 			<script>
 		    function myMap() {
 		  	var mapCanvas = document.getElementById("map");
-		  	var myCenter = new google.maps.LatLng(51.522670,-0.085638); 
+		  	var myCenter = new google.maps.LatLng(51.522670,-0.085638);
 		  	var mapOptions = {center: myCenter, zoom: 16};
 			  var map = new google.maps.Map(mapCanvas,mapOptions);
 			  var infowindow = new google.maps.InfoWindow({});
@@ -102,7 +133,6 @@
 				origin: new google.maps.Point(0, 0),
 				anchor: new google.maps.Point(0, 0),
 			  };
-
 			  var marker = new google.maps.Marker({
 			   position: new google.maps.LatLng(51.522670,-0.085638),
 			   icon: icon,
@@ -119,7 +149,7 @@
 		}
 		  </script>
 			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFqJv_saeJNZw1ns3wH8zbyhAEWN25uU8&callback=myMap"></script>
-   
+
     		</div>
     	</div>
     </div>

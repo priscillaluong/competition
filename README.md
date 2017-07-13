@@ -1,3 +1,5 @@
-temporary preview link on my git:
+Here is the staging preview link:
 
-https://fiontanyf.github.io/Gallery_test/
+https://priscillaluong.github.io/competition/
+
+

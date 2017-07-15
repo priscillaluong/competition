@@ -58,25 +58,13 @@ ul.navbar-nav a:active {
 
 /*Navbar CSS end */
 
-
-
-
-
-
-
-
 h3{
     font-size: 15px;
     font-weight: bold;
-
 }
-
-
 
 /* General Demo Style */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-
-
 
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
@@ -84,14 +72,25 @@ h3{
   box-sizing: border-box;
   color: grey;
 }
-body, html { font-size: 100%; padding: 0; margin: 0;}
+
+body, html {
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
 
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
-.clearfix:before, .clearfix:after { content: " "; display: table; }
-.clearfix:after { clear: both; }
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear:
+  both;
+}
 
 body {
-
 	color: #b3b9bf;
 	background: white;
 }
@@ -101,8 +100,7 @@ a {
 	text-decoration: none;
 }
 
-a:hover,
-a:active {
+a:hover, a:active {
 	color: #333;
 }
 
@@ -115,14 +113,11 @@ a:active {
 }
 
 .container > header h1 {
-
 	margin: 0;
 	font-weight: 300;
 }
 
-
 .container > subheader p {
-
 	margin: 0;
 	padding: 30px;
 }
@@ -159,7 +154,6 @@ a:active {
 }
 
 .codrops-icon:before {
-
 	margin: 0 4px;
 	speak: none;
 	font-style: normal;
@@ -213,21 +207,12 @@ a:active {
 }
 
 @media screen and (max-width: 25em) {
-
 	.codrops-icon span {
 		display: none;
 	}
-
 }
 
-
-
-
-
-
-
 /* GALLERY CATEGORY PAGE STYLE START */
-
 
 .home-img-wrap {
   position: relative;
@@ -319,10 +304,8 @@ a:active {
 /* GALLERY SUBPAGE Button 1 */
 
 .page-header{
-        text-align: center;
-    }
-
-
+  text-align: center;
+}
 
 .btn-1 {
 	border: 3px solid #fff;
@@ -335,8 +318,6 @@ a:active {
 	color: #2c3f52;
 	background: #fff;
 }
-
-
 
 /* Button gallery subpage */
 
@@ -384,15 +365,12 @@ a:active {
     	left: 0;
 }
 
-
-
 .grid figcaption a {
 	text-align: center;
 	padding: 5px 10px;
 	border-radius: 2px;
 	display: inline-block;
-    font-size: 12px;
-
+  font-size: 12px;
 	color: #fff;
 }
 

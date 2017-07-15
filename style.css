@@ -9,8 +9,13 @@
  h1 {
 	color: grey;
 	text-align: center;
-	height: 70px;
+	height: 60px;
 	font-size: 60px;
+}
+
+h2 {
+	color: grey;
+	text-align: center;
 }
 
 .menu {
@@ -18,7 +23,7 @@
     height:2em;
     padding:0;
     position:absolute;
-    top:70px;
+    top:90px;
     width:100%;
 }
 

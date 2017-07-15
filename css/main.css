@@ -1,18 +1,74 @@
-
+body {
+background-color:white;
+}
 
 h1{
-    font-size: 24px;
-    line-height: normal;
-    font-weight: bold;
-    
+  color: grey;
+	text-align: center;
+	height: 60px;
+	font-size: 60px;
 }
+
+h2{
+  color: grey;
+  text-align: center;
+}
+
+/*Navbar CSS */
+#navbarSupportedContent {
+	position:relative;
+	z-index: 999;
+}
+
+.menu {
+    color:#FFF;
+    height:2em;
+    padding:0;
+    position:absolute;
+    top:90px;
+    width:100%;
+}
+
+.fixed {
+    position:fixed;
+    top:0;
+		z-index: 90;
+}
+
+.navbar {
+	background-color:white;
+}
+
+.navbar .navbar-nav {
+		display: inline-block;
+    float:none;
+		vertical-align: top;
+		margin-left:35%;
+		background-color: white;
+		font-size: 20px;
+}
+
+ul.navbar-nav a:hover {
+	color: #f0e0e0 !important;
+}
+
+ul.navbar-nav a:active {
+	color: #f0e0e0 !important;
+}
+
+/*Navbar CSS end */
+
+
+
+
+
 
 
 
 h3{
     font-size: 15px;
     font-weight: bold;
-    
+
 }
 
 
@@ -22,7 +78,12 @@ h3{
 
 
 
-*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: grey;
+}
 body, html { font-size: 100%; padding: 0; margin: 0;}
 
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
@@ -30,9 +91,9 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 .clearfix:after { clear: both; }
 
 body {
-	
+
 	color: #b3b9bf;
-	background: #f9f9f9;
+	background: white;
 }
 
 a {
@@ -54,14 +115,14 @@ a:active {
 }
 
 .container > header h1 {
-	
+
 	margin: 0;
 	font-weight: 300;
 }
 
 
 .container > subheader p {
-	
+
 	margin: 0;
 	padding: 30px;
 }

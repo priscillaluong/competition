@@ -43,6 +43,10 @@ body > div.menu > nav > button {
 	z-index:1000;
 }
 
+.ws_images>.item {
+	z-index:-9;
+}
+
 .menu {
     color:#FFF;
     height:2em;

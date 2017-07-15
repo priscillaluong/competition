@@ -35,7 +35,7 @@ $(document).ready(function myMap() {
   });
   infowindow.open(map,marker);
   });
-  }
+  
 /*
 //Sticky navbar
 $(document).ready(function() {

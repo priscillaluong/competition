@@ -30,6 +30,10 @@ p2 {
 	text-align: center;
 }
 
+p3 {
+	color: grey;
+}
+
 #navbarSupportedContent {
 	background-color:white;
 	z-index: 999;

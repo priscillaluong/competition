@@ -415,7 +415,7 @@ body {
 /* line 6, ../sass/_typography.scss */
 body {
   color: #2d2d30;
-  
+
   font-weight: 400;
   font-size: 17px;
   letter-spacing: 0.02em;
@@ -432,8 +432,8 @@ h1.white, h2.white, h3.white, div.main-menu .menu-main-nav-container ul.menu > l
 }
 
 /* line 24, ../sass/_typography.scss */
-h1 {
-  
+/*h1 {
+
   font-weight: 900;
   text-transform: uppercase;
   font-size: 4.85714em;
@@ -441,14 +441,14 @@ h1 {
   letter-spacing: 0.07em;
 }
 /* line 28, ../sass/_typography.scss */
-h1.underline {
+/*h1.underline {
   display: inline-block;
   margin-bottom: 60px;
   position: relative;
   text-align: center;
 }
 /* line 26, ../sass/_mixins.scss */
-h1.underline:after {
+/*h1.underline:after {
   content: "";
   position: absolute;
   width: 70%;
@@ -459,8 +459,8 @@ h1.underline:after {
 }
 @media (max-width: 991px) {
   /* line 24, ../sass/_typography.scss */
-  h1 {
-   
+  /*h1 {
+
     font-weight: 900;
     text-transform: uppercase;
     font-size: 3.92857em;
@@ -470,18 +470,18 @@ h1.underline:after {
 }
 
 /* line 40, ../sass/_typography.scss */
-h2 {
-  
+/*h2 {
+
   font-weight: 900;
   text-transform: uppercase;
   font-size: 2.85714em;
   line-height: 1em;
   letter-spacing: 0.05em;
 }
-
+*/
 /* line 44, ../sass/_typography.scss */
 h3, div.main-menu .menu-main-nav-container ul.menu > li > a, div.main-menu .menu-main-nav-english0-container ul.menu > li > a, div.main-menu .menu-main-nav-container ul.sub-menu > li > a, div.main-menu .menu-main-nav-english0-container ul.sub-menu > li > a {
-  
+
   font-weight: 900;
   text-transform: uppercase;
   font-size: 2.28571em;
@@ -491,7 +491,7 @@ h3, div.main-menu .menu-main-nav-container ul.menu > li > a, div.main-menu .menu
 
 /* line 48, ../sass/_typography.scss */
 h4, a.big, h5, .button, div.main-menu .language .language-da, div.main-menu .language .language-en, .page-template-page-kalender-php .nav-calendar .button-book, #main .page-template-page-kalender-php .nav-calendar .button-book, h6 {
-  
+
   font-weight: 900;
   text-transform: uppercase;
   font-size: 1.71429em;
@@ -501,9 +501,9 @@ h4, a.big, h5, .button, div.main-menu .language .language-da, div.main-menu .lan
 
 /* line 52, ../sass/_typography.scss */
 h4, a.big {
-  
+
   font-weight: 900;
- 
+
   font-size: 1.21429em;
   line-height: 1em;
   letter-spacing: 0.06em;
@@ -534,7 +534,7 @@ h5, .button, div.main-menu .language .language-da, div.main-menu .language .lang
 }
 /* line 66, ../sass/_typography.scss */
 h5.big, .big.button, div.main-menu .language .big.language-da, div.main-menu .language .big.language-en, .page-template-page-kalender-php .nav-calendar .big.button-book, #main .page-template-page-kalender-php .nav-calendar .big.button-book {
-  
+
   font-weight: 900;
   text-transform: uppercase;
   font-size: 2.14286em;
@@ -546,7 +546,7 @@ h5.big, .big.button, div.main-menu .language .big.language-da, div.main-menu .la
 /* line 73, ../sass/_typography.scss */
 h6 {
   display: inline-block;
-  
+
   font-weight: 900;
   text-transform: uppercase;
   font-size: 1.28571em;
@@ -559,13 +559,13 @@ h6 {
 p {
   text-align: center;
   margin-bottom: 30px;
-  
+
 }
 
 /* line 86, ../sass/_typography.scss */
 p, a, li {
   color: #2d2d30;
- 
+
   font-weight: 400;
 }
 
@@ -580,15 +580,15 @@ p, li {
         p{
     	    margin-bottom: 35px;
         }
-        
+
         &.column{
             p{
                 @include column-count(2);
                 @include column-gap(30px);
             }
-            
+
         }
-        
+
     }
 }
 */
@@ -602,7 +602,7 @@ a.big {
   -webkit-transition: letter-spacing 0.3s ease;
   transition: letter-spacing 0.3s ease;
   font-weight: 400;
-  
+
   font-weight: 400;
   text-decoration: none;
 }
@@ -1168,7 +1168,7 @@ ul > li {
 
 /* line 123, ../sass/_exhibition.scss */
 .exhibition-archive-content {
-   
+
   height: 600px;
   min-height: 600px;
 }

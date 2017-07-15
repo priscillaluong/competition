@@ -19,9 +19,8 @@ h2 {
 }
 
 #navbarSupportedContent {
-	position:absolute;
+	position:relative;
 	z-index: 999;
-	width: 200px;
 }
 
 .menu {

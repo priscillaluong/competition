@@ -3,7 +3,6 @@ background-color:white;
 }
 
 h1{
-  background-color:white;
   color: grey;
 	text-align: center;
 	height: 60px;
@@ -89,7 +88,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 body {
 
 	color: #b3b9bf;
-	background: #f9f9f9;
+	background: white;
 }
 
 a {

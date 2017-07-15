@@ -266,7 +266,7 @@ body {
 
 /* line 221, ../sass/_general.scss */
 .c-white {
-  color: white;
+  color: grey;
 }
 
 /* line 38, ../sass/_mixins.scss */
@@ -427,8 +427,8 @@ h1, h2, h3, div.main-menu .menu-main-nav-container ul.menu > li > a, div.main-me
   padding: 0;
 }
 /* line 19, ../sass/_typography.scss */
-h1.white, h2.white, h3.white, div.main-menu .menu-main-nav-container ul.menu > li > a.white, div.main-menu .menu-main-nav-english0-container ul.menu > li > a.white, div.main-menu .menu-main-nav-container ul.sub-menu > li > a.white, div.main-menu .menu-main-nav-english0-container ul.sub-menu > li > a.white, h4.white, a.white.big, h5.white, .white.button, div.main-menu .language .white.language-da, div.main-menu .language .white.language-en, .page-template-page-kalender-php .nav-calendar .white.button-book, #main .page-template-page-kalender-php .nav-calendar .white.button-book, h6.white {
-  color: white;
+h1.grey, h2.grey, h3.grey, div.main-menu .menu-main-nav-container ul.menu > li > a.grey, div.main-menu .menu-main-nav-english0-container ul.menu > li > a.grey, div.main-menu .menu-main-nav-container ul.sub-menu > li > a.grey, div.main-menu .menu-main-nav-english0-container ul.sub-menu > li > a.grey, h4.grey, a.grey.big, h5.grey, .grey.button, div.main-menu .language .grey.language-da, div.main-menu .language .grey.language-en, .page-template-page-kalender-php .nav-calendar .grey.button-book, #main .page-template-page-kalender-php .nav-calendar .grey.button-book, h6.grey {
+  color: grey;
 }
 
 /* line 24, ../sass/_typography.scss */
@@ -676,6 +676,7 @@ ul > li {
   height: 10px;
   position: absolute;
   z-index: 1;
+  color:grey;
 }
 /* line 26, ../sass/_button.scss */
 .button span:before {
@@ -685,6 +686,7 @@ ul > li {
   width: 0;
   border-top: 10px solid #2d2d30;
   border-left: 10px solid transparent;
+  color:grey;
 }
 /* line 32, ../sass/_button.scss */
 .button span:after {
@@ -694,6 +696,7 @@ ul > li {
   width: 0;
   border-bottom: 10px solid #2d2d30;
   border-right: 10px solid transparent;
+  color:grey;
 }
 /* line 39, ../sass/_button.scss */
 .button:hover, .button.checked {
@@ -719,6 +722,7 @@ ul > li {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   font-size: 0.83em;
+  color:grey;
 }
 /* line 58, ../sass/_button.scss */
 .button:active span {
@@ -801,6 +805,7 @@ ul > li {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   font-size: 0.83em;
+  color:grey;
 }
 /* line 58, ../sass/_button.scss */
 .button.button-small:active span {
@@ -811,25 +816,25 @@ ul > li {
   transform: translateX(7px) translateY(7px);
 }
 /* line 85, ../sass/_button.scss */
-.button.button-small.button-white {
+.button.button-small.button-grey {
   padding: 0px 7px 7px 0px;
 }
 /* line 6, ../sass/_button.scss */
-.button.button-small.button-white span {
+.button.button-small.button-grey span {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   display: block;
   vertical-align: middle;
   padding: 7px 28px;
   padding-top: 8px;
-  border: 4px solid white;
-  box-shadow: 7px 7px white;
+  border: 4px solid grey;
+  box-shadow: 7px 7px grey;
   position: relative;
-  color: white;
+  color: grey;
   line-height: normal;
 }
 /* line 18, ../sass/_button.scss */
-.button.button-small.button-white span:before, .button.button-small.button-white span:after {
+.button.button-small.button-grey span:before, .button.button-small.button-grey span:after {
   content: "";
   display: block;
   width: 7px;
@@ -838,29 +843,29 @@ ul > li {
   z-index: 1;
 }
 /* line 26, ../sass/_button.scss */
-.button.button-small.button-white span:before {
+.button.button-small.button-grey span:before {
   bottom: -11px;
   left: -4px;
   height: 0;
   width: 0;
-  border-top: 7px solid white;
+  border-top: 7px solid grey;
   border-left: 7px solid transparent;
 }
 /* line 32, ../sass/_button.scss */
-.button.button-small.button-white span:after {
+.button.button-small.button-grey span:after {
   top: -4px;
   right: -11px;
   height: 0;
   width: 0;
-  border-bottom: 7px solid white;
+  border-bottom: 7px solid grey;
   border-right: 7px solid transparent;
 }
 /* line 39, ../sass/_button.scss */
-.button.button-small.button-white:hover, .button.button-small.button-white.checked {
+.button.button-small.button-grey:hover, .button.button-small.button-grey.checked {
   text-decoration: none;
 }
 /* line 41, ../sass/_button.scss */
-.button.button-small.button-white:hover span, .button.button-small.button-white.checked span {
+.button.button-small.button-grey:hover span, .button.button-small.button-grey.checked span {
   -webkit-transform: translateX(3.5px) translateY(3.5px);
   -moz-transform: translateX(3.5px) translateY(3.5px);
   -ms-transform: translateX(3.5px) translateY(3.5px);
@@ -868,7 +873,7 @@ ul > li {
   transform: translateX(3.5px) translateY(3.5px);
 }
 /* line 47, ../sass/_button.scss */
-.button.button-small.button-white.checked:before {
+.button.button-small.button-grey.checked:before {
   content: 'x';
   position: absolute;
   left: 20px;
@@ -881,7 +886,7 @@ ul > li {
   font-size: 0.83em;
 }
 /* line 58, ../sass/_button.scss */
-.button.button-small.button-white:active span {
+.button.button-small.button-grey:active span {
   -webkit-transform: translateX(7px) translateY(7px);
   -moz-transform: translateX(7px) translateY(7px);
   -ms-transform: translateX(7px) translateY(7px);
@@ -889,25 +894,25 @@ ul > li {
   transform: translateX(7px) translateY(7px);
 }
 /* line 91, ../sass/_button.scss */
-.button.button-white {
+.button.button-grey {
   padding: 0px 10px 10px 0px;
 }
 /* line 6, ../sass/_button.scss */
-.button.button-white span {
+.button.button-grey span {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   display: block;
   vertical-align: middle;
   padding: 10px 40px;
   padding-top: 12px;
-  border: 6px solid white;
-  box-shadow: 10px 10px white;
+  border: 6px solid grey;
+  box-shadow: 10px 10px grey;
   position: relative;
-  color: white;
+  color: grey;
   line-height: normal;
 }
 /* line 18, ../sass/_button.scss */
-.button.button-white span:before, .button.button-white span:after {
+.button.button-grey span:before, .button.button-grey span:after {
   content: "";
   display: block;
   width: 10px;
@@ -916,29 +921,29 @@ ul > li {
   z-index: 1;
 }
 /* line 26, ../sass/_button.scss */
-.button.button-white span:before {
+.button.button-grey span:before {
   bottom: -16px;
   left: -6px;
   height: 0;
   width: 0;
-  border-top: 10px solid white;
+  border-top: 10px solid grey;
   border-left: 10px solid transparent;
 }
 /* line 32, ../sass/_button.scss */
-.button.button-white span:after {
+.button.button-grey span:after {
   top: -6px;
   right: -16px;
   height: 0;
   width: 0;
-  border-bottom: 10px solid white;
+  border-bottom: 10px solid grey;
   border-right: 10px solid transparent;
 }
 /* line 39, ../sass/_button.scss */
-.button.button-white:hover, .button.button-white.checked {
+.button.button-grey:hover, .button.button-grey.checked {
   text-decoration: none;
 }
 /* line 41, ../sass/_button.scss */
-.button.button-white:hover span, .button.button-white.checked span {
+.button.button-grey:hover span, .button.button-grey.checked span {
   -webkit-transform: translateX(5px) translateY(5px);
   -moz-transform: translateX(5px) translateY(5px);
   -ms-transform: translateX(5px) translateY(5px);
@@ -946,7 +951,7 @@ ul > li {
   transform: translateX(5px) translateY(5px);
 }
 /* line 47, ../sass/_button.scss */
-.button.button-white.checked:before {
+.button.button-grey.checked:before {
   content: 'x';
   position: absolute;
   left: 20px;
@@ -959,7 +964,7 @@ ul > li {
   font-size: 0.83em;
 }
 /* line 58, ../sass/_button.scss */
-.button.button-white:active span {
+.button.button-grey:active span {
   -webkit-transform: translateX(10px) translateY(10px);
   -moz-transform: translateX(10px) translateY(10px);
   -ms-transform: translateX(10px) translateY(10px);
@@ -1098,12 +1103,12 @@ ul > li {
 }
 
 /* line 48, ../sass/_exhibition.scss */
-.exhibition-white h1, .exhibition-white h2, .exhibition-white h3, .exhibition-white div.main-menu .menu-main-nav-container ul.menu > li > a, div.main-menu .menu-main-nav-container .exhibition-white ul.menu > li > a, .exhibition-white div.main-menu .menu-main-nav-english0-container ul.menu > li > a, div.main-menu .menu-main-nav-english0-container .exhibition-white ul.menu > li > a, .exhibition-white div.main-menu .menu-main-nav-container ul.sub-menu > li > a, div.main-menu .menu-main-nav-container .exhibition-white ul.sub-menu > li > a, .exhibition-white div.main-menu .menu-main-nav-english0-container ul.sub-menu > li > a, div.main-menu .menu-main-nav-english0-container .exhibition-white ul.sub-menu > li > a, .exhibition-white h4, .exhibition-white a.big, .exhibition-white h5, .exhibition-white .button, .exhibition-white div.main-menu .language .language-da, div.main-menu .language .exhibition-white .language-da, .exhibition-white div.main-menu .language .language-en, div.main-menu .language .exhibition-white .language-en, .exhibition-white .page-template-page-kalender-php .nav-calendar .button-book, .page-template-page-kalender-php .nav-calendar .exhibition-white .button-book, .exhibition-white #main .page-template-page-kalender-php .nav-calendar .button-book, #main .page-template-page-kalender-php .nav-calendar .exhibition-white .button-book, .exhibition-white h6, .exhibition-white p, .exhibition-white a {
-  color: white;
+.exhibition-grey h1, .exhibition-grey h2, .exhibition-grey h3, .exhibition-grey div.main-menu .menu-main-nav-container ul.menu > li > a, div.main-menu .menu-main-nav-container .exhibition-grey ul.menu > li > a, .exhibition-grey div.main-menu .menu-main-nav-english0-container ul.menu > li > a, div.main-menu .menu-main-nav-english0-container .exhibition-grey ul.menu > li > a, .exhibition-grey div.main-menu .menu-main-nav-container ul.sub-menu > li > a, div.main-menu .menu-main-nav-container .exhibition-grey ul.sub-menu > li > a, .exhibition-grey div.main-menu .menu-main-nav-english0-container ul.sub-menu > li > a, div.main-menu .menu-main-nav-english0-container .exhibition-grey ul.sub-menu > li > a, .exhibition-grey h4, .exhibition-grey a.big, .exhibition-grey h5, .exhibition-grey .button, .exhibition-grey div.main-menu .language .language-da, div.main-menu .language .exhibition-grey .language-da, .exhibition-grey div.main-menu .language .language-en, div.main-menu .language .exhibition-grey .language-en, .exhibition-grey .page-template-page-kalender-php .nav-calendar .button-book, .page-template-page-kalender-php .nav-calendar .exhibition-grey .button-book, .exhibition-grey #main .page-template-page-kalender-php .nav-calendar .button-book, #main .page-template-page-kalender-php .nav-calendar .exhibition-grey .button-book, .exhibition-grey h6, .exhibition-grey p, .exhibition-grey a {
+  color: grey;
 }
 /* line 52, ../sass/_exhibition.scss */
 .exhibition-white .dash {
-  color: white;
+  color: grey;
 }
 
 /* line 58, ../sass/_exhibition.scss */

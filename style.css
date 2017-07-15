@@ -18,6 +18,12 @@ h2 {
 	text-align: center;
 }
 
+#navbarSupportedContent {
+	position:absolute;
+	z-index: 999;
+	width: 200px;
+}
+
 .menu {
     color:#FFF;
     height:2em;

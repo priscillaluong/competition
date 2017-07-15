@@ -1,17 +1,17 @@
 body {
-background-color:white;
+	background-color:white;
 }
 
 h1{
-  color: grey;
+  	color: grey;
 	text-align: center;
 	height: 60px;
 	font-size: 60px;
 }
 
 h2{
-  color: grey;
-  text-align: center;
+  	color: grey;
+  	text-align: center;
 }
 
 /*Navbar CSS */
@@ -41,7 +41,7 @@ h2{
 
 .navbar .navbar-nav {
 		display: inline-block;
-    float:none;
+    		float:none;
 		vertical-align: top;
 		margin-left:35%;
 		background-color: white;

@@ -20,8 +20,12 @@ h2 {
 }
 
 #navbarSupportedContent {
-	position:relative;
+	background-color:white;
 	z-index: 999;
+}
+
+body > div.menu > nav > button {
+	z-index:1000;
 }
 
 .menu {
@@ -72,7 +76,7 @@ h1 {
 
 .inner {
 	padding: 55px;
-	height: 400px;
+	height: 500px;
 }
 .contact {
 	padding:0px;

@@ -44,6 +44,10 @@ ul.navbar-nav a:hover {
 	color: #f0e0e0 !important;
 }
 
+ul.navbar-nav a:active {
+	color: #f0e0e0 !important;
+}
+
 .navbar-default .navbar-nav>.active a,
 .navbar-default .navbar-nav>.active> a:focus,
 .navbar-default .navbar-nav>.active> a:hover{

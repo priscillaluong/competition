@@ -1,0 +1,135 @@
+
+#about {
+	padding-top: 60px;
+	padding-left: 100px;
+	padding-right: 100px;
+	font-size: 13px;
+}
+
+ h1 {
+	color: grey;
+	text-align: center;
+	height: 60px;
+	font-size: 60px;
+}
+
+h2 {
+	color: grey;
+	text-align: center;
+	font-size: 25px;
+}
+
+h3 {
+	text-align: left;
+	font-size: 30px;
+	color: grey;
+}
+
+p2 {
+	font-size: 10px;
+	text-align: center;
+}
+
+p3 {
+	color: grey;
+}
+
+#navbarSupportedContent {
+	background-color:white;
+	z-index: 999;
+}
+
+body > div.menu > nav > button {
+	z-index:1000;
+}
+
+body {
+	z-index:-1;
+}
+
+.menu {
+    color:#FFF;
+    height:2em;
+    padding:0;
+    position:absolute;
+    top:90px;
+    width:100%;
+}
+
+.fixed {
+    position:fixed;
+    top:0;
+		z-index: 90;
+}
+
+.navbar {
+	background-color:white;
+}
+
+.navbar .navbar-nav {
+		display: inline-block;
+    float:none;
+		vertical-align: top;
+		margin-left:35%;
+		background-color: white;
+		font-size: 20px;
+}
+}
+
+ul.navbar-nav a:hover {
+	color: #f0e0e0 !important;
+}
+
+ul.navbar-nav a:active {
+	color: #f0e0e0 !important;
+}
+
+.navbar-default .navbar-nav>.active a,
+.navbar-default .navbar-nav>.active> a:focus,
+.navbar-default .navbar-nav>.active> a:hover{
+  background: none;
+}
+
+h1 {
+	color: grey;
+}
+
+.inner {
+	padding: 55px;
+	height: 402px;
+}
+.contact {
+	padding:0px;
+	background-color: #f0e0e0;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  font-size: 20px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  font-size: 20px;
+}
+
+.fa-instagram {
+  background: #1d6087;
+  color: white;
+  font-size: 20px;
+}

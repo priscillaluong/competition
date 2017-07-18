@@ -17,7 +17,7 @@ TO DO:
 
 -slider arrow button
 
--python form
+-python form (we might be able to use?) https://github.com/ousenko/simple-contact-form
 
 -add footer to gallery section
 

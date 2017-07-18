@@ -5,14 +5,17 @@ https://priscillaluong.github.io/competition/
 ==============
 
 - already combined the gallery into master and update the nav link
-- will style it later
-- need to test again on all browsers
-- tested on desktop and mobile ( Wyn can you help to solve the hover effect on mobile touch screen for category page)
-
+- will style it later (done)
+- need to test again on all browsers (gallery and subpage should be ok now, fixed the hover)
 
 ==============
 
-Also can you all update the path and organise the files js/css/ in destinated folder please
+TO DO:
+-Fix nav bar across the site
+-Fix homepage responsive on mobile/tablet
+-slider arrow button
+-python form
+-add footer to gallery section
 
 
 

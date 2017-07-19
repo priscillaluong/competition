@@ -19,6 +19,14 @@ h2 {
 	font-size: 25px;
 }
 
+.header-link {
+	color: grey; 
+}
+
+.header-link a:link {
+	text-decoration: none;
+}
+
 h3 {
 	text-align: left;
 	font-size: 30px;
